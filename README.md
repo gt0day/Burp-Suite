@@ -2,15 +2,14 @@
 
 ## Requirement
 - Java
-- JDK
 - Burp Suite Professional (JAR)
 
-> Download From [Here](https://portswigger.net/burp/releases/professional-community-2021-10-3 'Burp Suite')
+> Download From [Here](https://portswigger.net/burp/releases#professional 'Burp Suite')
 
 > Watch How To Activate On Linux [Here](https://www.youtube.com/watch?v=fuU2VwinlX4)
 
 ## Linux
-- [1] - java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:PATH/Burp-Suite/loader.jar -noverify -jar PATH/burpsuite_pro_v2021.*.*.jar &
+- [1] - java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:PATH/loader.jar -noverify -jar PATH/burpsuite_pro_v2022.*.*.jar &
 - [2] - java -jar keygen.jar
 - [3] - Activation
 	* Modify License String like "license to Siddharth"
@@ -20,12 +19,12 @@
 	* Copy license response from keygen.jar and paste in BurpSuite_Pro, and next and Done
 - [4] - Shortcut
   * With Sudo Permissions, Create a file with command "nano /bin/burpsuite-pro"
-  * Paste command in text editor "java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:PATH/Burp-Suite/loader.jar -noverify -jar PATH/burpsuite_pro_v2021.*.*.jar &"
+  * Paste command in text editor "java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:PATH/loader.jar -noverify -jar PATH/burpsuite_pro_v2022.*.*.jar &"
   * Change Permissions for files with command "chmod +x /bin/burpsuite-pro"
   * For Executing Burpsuite Write burpsuite-pro in Terminal and press Enter.
 	
 ## Windows
-- [1] - java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"PATH\Burp-Suite\loader.jar" -noverify -jar "PATH\burpsuite_pro_v2021.*.*.jar"
+- [1] - java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:"PATH\loader.jar" -noverify -jar "PATH\burpsuite_pro_v2022.*.*.jar"
 - [2] - java -jar keygen.jar
 - [3] - Activation
 	* Modify License String like "license to Siddharth"
