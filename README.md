@@ -17,7 +17,8 @@
 - [4] - Copy the loader command we need to use for shortcut and press R...
 - [5] - Copy license from burpsuite loader and paste in license key in burpsuite and press next
 - [6] - Press manual activation and copy request then paste in activation request in burpsuite loeader
-- [7] - Copy activation response from burpsuite loader and paste in burpsuite (paste response)
+- [7] - Copy activation response from burpsuite loader and paste in burpsuite (paste response) 
+  > Finnaly make a shortcut from loader command in step 4.
 
 > Happy Hacking :)
 	
