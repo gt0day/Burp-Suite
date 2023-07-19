@@ -10,9 +10,9 @@
 
 ## Linux
 - [1] - make a folder in /etc/opt/Burpsuite
-- > sudo mkdir /etc/opt/Burpsuite
+  > sudo mkdir /etc/opt/Burpsuite
 - [2] - move the BurpLoaderKeygen.jar and burpsuite_pro_vxxxx.x.jar in the same folder
-- > sudo mv BurpLoaderKeygen.jar burpsuite_pro_v2023.7.jar /etc/opt/Burpsuite && cd /etc/opt/Burpsuite
+  > sudo mv BurpLoaderKeygen.jar burpsuite_pro_v2023.7.jar /etc/opt/Burpsuite && cd /etc/opt/Burpsuite
 - [3] - java -jar BurpLoaderKeygen.jar
 - [4] - Copy the loader command we need to use for shortcut and press R...
 - [5] - Copy license from burpsuite loader and paste in license key in burpsuite and press next
